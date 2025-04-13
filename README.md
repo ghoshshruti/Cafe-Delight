@@ -1,3 +1,3 @@
 # Cafe-Delight
 
-![alt text](./images/ss.png)
+![alt text](image.png)
