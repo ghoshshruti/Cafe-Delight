@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight - Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Café Delight">
+                <h1>Cafée Delight</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="menu-hero">
+        <div class="container">
+            <h1>Our Menu</h1>
+            <p>Discover our delicious offerings</p>
+        </div>
+    </section>
+
+    <section class="menu-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="coffee">Coffee</button>
+                <button class="tab-btn" data-category="shakes">Shakes</button>
+                <button class="tab-btn" data-category="smoothies">Smoothies</button>
+                <button class="tab-btn" data-category="sandwiches">Sandwiches</button>
+                <button class="tab-btn" data-category="burgers">Burgers</button>
+                <button class="tab-btn" data-category="pizza">Pizza</button>
+                <button class="tab-btn" data-category="pastries">Pastries</button>
+                <button class="tab-btn" data-category="donuts">Donuts</button>
+                <button class="tab-btn" data-category="cookies">Cookies</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-items">
+        <div class="container">
+            
+            <div class="menu-section active" id="coffee">
+                <h2 class="section-title">Coffee</h2>
+                <div class="items-grid">
+                    <div class="menu-item">
+                        <img src="images/espresso.jpg" alt="Espresso">
+                        <div class="item-info">
+                            <h3>Espresso</h3>
+                            <p>Strong black coffee shot</p>
+                            <span class="price">$3.50</span>
+                            <button class="btn-add">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/cappuccino.jpeg" alt="Cappuccino">
+                        <div class="item-info">
+                            <h3>Cappuccino</h3>
+                            <p>Espresso with steamed milk foam</p>
+                            <span class="price">$4.50</span>
+                            <button class="btn-add">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/latte.jpeg" alt="Latte">
+                        <div class="item-info">
+                            <h3>Latte</h3>
+                            <p>Espresso with steamed milk</p>
+                            <span class="price">$4.75</span>
+                            <button class="btn-add">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/americano.jpeg" alt="Americano">
+                        <div class="item-info">
+                            <h3>Americano</h3>
+                            <p>Espresso with hot water</p>
+                            <span class="price">$3.75</span>
+                            <button class="btn-add">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/mocha.jpeg" alt="Mocha">
+                        <div class="item-info">
+                            <h3>Mocha</h3>
+                            <p>Espresso with chocolate and milk</p>
+                            <span class="price">$5.00</span>
+                            <button class="btn-add">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/flat-white.jpeg" alt="Flat White">
+                        <div class="item-info">
+                            <h3>Flat White</h3>
+                            <p>Espresso with microfoam</p>
+                            <span class="price">$4.75</span>
+                            <button class="btn-add">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="menu-section" id="shakes">
+                <h2 class="section-title">Shakes</h2>
+                <div class="items-grid">
+                    <div class="menu-item">
+                        <img src="images/chocolate-shake.jpeg" alt="Chocolate Shake">
+                        <div class="item-info">
+                            <h3>Chocolate Shake</h3>
+                            <p>Rich chocolate flavor</p>
+                            <span class="price">$6.50</span>
+                            <button class="btn-add">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/vanilla-shake.jpeg" alt="Vanilla Shake">
+                        <div class="item-info">
+                            <h3>Vanilla Shake</h3>
+                            <p>Classic vanilla flavor</p>
+                            <span class="price">$6.00</span>
+                            <button class="btn-add">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/strawberry-shake.jpg" alt="Strawberry Shake">
+                        <div class="item-info">
+                            <h3>Strawberry Shake</h3>
+                            <p>Fresh strawberry flavor</p>
+                            <span class="price">$6.50</span>
+                            <button class="btn-add">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/cookies-cream-shake.jpeg" alt="Cookies & Cream Shake">
+                        <div class="item-info">
+                            <h3>Cookies & Cream</h3>
+                            <p>Oreo cookie pieces</p>
+                            <span class="price">$7.00</span>
+                            <button class="btn-add">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Smoothies, Sandwiches, Burgers, Pizza, Pastries, Donuts, Cookies -->
+
+            <div class="order-cta">
+                <a href="order.html" class="btn-primary">Proceed to Order</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>Café Delight</h3>
+                <p>123 Main Street<br>Your City, ST 12345</p>
+            </div>
+            <div class="footer-section">
+                <h3>Hours</h3>
+                <p>Monday-Friday: 7am-8pm<br>
+                Saturday-Sunday: 8am-9pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p>info@cafedelight.com<br>(555) 123-4567</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Cafe Delight. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
